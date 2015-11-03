@@ -113,7 +113,7 @@ module.exports = (grunt) ->
 	grunt.loadNpmTasks 'grunt-text-replace'
 	grunt.loadNpmTasks 'grunt-contrib-rename'
 
-	grunt.registerTask "api", [
+	grunt.registerTask "default", [
 		"clean:work", "clean:docs", "copy:docs", "rename",
 		"replace:viewColaToCaf", "replace:jsColaToCaf", "replace:api",
 		"yamlToDoc", "copy:apiResources", "clean:others", "copy:includeJs"
