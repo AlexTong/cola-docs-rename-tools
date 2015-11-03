@@ -1,3 +1,6 @@
 [submodule "cola-ui"]
 	path = cola-ui
 	url = https://github.com/Cola-Org/cola-ui
+[submodule "cola-ui-docs"]
+	path = cola-ui-docs
+	url = https://github.com/Cola-Org/cola-ui-docs
